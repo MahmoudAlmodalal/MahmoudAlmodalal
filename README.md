@@ -110,23 +110,3 @@ I'm a **Computer Engineer** (B.Sc., Islamic University of Gaza — GPA: 91%) wit
 | Introduction to Software Engineering | Coursera · IBM |
 | Getting Started with Git and GitHub | Coursera · IBM |
 | ICDL | Othman Center, Gaza |
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff)
-
-</div>
-
-<div align="center">
-
-*"Build things that matter, for people who need them."*
-
-![Visitor Count](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=58a6ff&style=flat-square)
-
-</div>
