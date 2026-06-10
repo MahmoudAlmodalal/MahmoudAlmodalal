@@ -86,10 +86,41 @@ I'm a **Computer Engineer** (B.Sc., Islamic University of Gaza — GPA: 91%) wit
 
 ---
 
-### 🖥️ MySellProject — Custom Shell (C)
-> Command-line shell supporting internal commands, I/O redirection, background processing, and batch mode
+ Noor Al-Huda (نور الهدى) 
 
-- **Stack:** C
+  An offline-first progressive web app (PWA) designed for a Quran-memorization
+  center in Gaza serving 300+ students, replacing manual paper tracking with a
+  resilient digital workflow.
+
+  • Target Users:
+      • Center Directors (Admins): Manage student admissions, assign teacher
+      rings, send center-wide announcements, and view center analytics.
+      • Teachers: Log daily attendance, record weekly memorization grids, log
+      exam evaluations, and track individual revision queues.
+      • Students & Parents: View personalized study plans, check attendance
+      history, review pending tasks, and receive real-time notifications.
+  • Offline-First Sync: Built a local-first system using Dexie.js and Django
+  that queues attendance and evaluation logs offline in outbox.ts during
+  internet outages and syncs background data automatically when connection
+  restores.
+  • Dynamic Scheduling: Developed an adaptive spaced-repetition algorithm in
+  review_services.py that automatically recalibrates individual student revision
+  planners based on daily performance metrics.
+  • BiDi Document Engine: Engineered an automated PDF report card generator in
+  report_services.py using ReportLab, Arabic Reshaper, and Python-BiDi to handle
+  strict right-to-left formatting dynamically.
+  • Role-Based Security: Restricts data views and actions across all
+  environments by enforcing row-level permissions within database queries
+  mapped to custom roles (models.py).
+  • Targeted Announcements: Implemented a targeted messaging system that fans
+  out center announcements and absence notifications to filtered parent,
+  student, or teacher cohorts.
+  • Bulk Data Import/Export: Configured Excel bulk upload and download engines,
+  allowing directors to batch-import rosters and export monthly attendance
+  spreadsheets.
+  • Tech Stack: React (Next.js), TypeScript, Tailwind CSS, Dexie.js, Django
+  REST Framework, PostgreSQL, Docker, Render, Vercel.
+
 
 ---
 
