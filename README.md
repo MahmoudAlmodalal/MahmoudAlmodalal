@@ -1,6 +1,6 @@
 <div align="center">
 
-# مرحباً، أنا محمود هشام المدلل 👋
+# Mahmoud H. Almodalal
 ### Backend Developer · Computer Engineer · AI/ML Enthusiast
 
 [![Email](https://img.shields.io/badge/Gmail-ghg17273%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ghg17273@gmail.com)
