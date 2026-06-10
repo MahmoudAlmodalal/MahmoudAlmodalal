@@ -123,16 +123,6 @@ I'm a **Computer Engineer** (B.Sc., Islamic University of Gaza — GPA: 91%) wit
 
 </div>
 
----
-
-## 🌱 Currently
-
-- 📖 Working through **Andrew Ng's Deep Learning Specialization** (optimization algorithms, Adam, mini-batch GD)
-- 🏗️ Expanding **EduTracker** schema with academic calendar, finance, and student promotion features
-- 🌍 Applying for international **Master's scholarships** in Computer Science
-
----
-
 <div align="center">
 
 *"Build things that matter, for people who need them."*
