@@ -86,13 +86,6 @@ I'm a **Computer Engineer** (B.Sc., Islamic University of Gaza — GPA: 91%) wit
 
 ---
 
-### 📚 BookHaven — E-Commerce Bookstore
-> Full-featured bookstore with auth, search, cart, and admin analytics dashboard
-
-- **Stack:** Python · Django · JavaScript · HTML · CSS
-
----
-
 ### 🖥️ MySellProject — Custom Shell (C)
 > Command-line shell supporting internal commands, I/O redirection, background processing, and batch mode
 
