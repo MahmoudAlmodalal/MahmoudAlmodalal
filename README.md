@@ -79,47 +79,34 @@ I'm a **Computer Engineer** (B.Sc., Islamic University of Gaza — GPA: 91%) wit
 
 ---
 
-### 👤 Human Tracking & Face Recognition System
-> Real-time multi-person tracking with movement statistics and face recognition
-
-- **Stack:** Python · YOLOv8 · DeepSort · InsightFace · OpenCV · PyTorch · ONNX Runtime
+Noor Al-Huda (نور الهدى)
+An all-in-one platform designed for a Quran-memorization center serving over 300 students, successfully replacing manual paper logs with a reliable digital workflow. Built to adapt to real-world challenges, it works fully offline during internet outages and updates automatically when the connection returns.
+👥 Tailored Features per User
+Center Directors:
+Manage new student admissions and easily organize teacher-led memorization circles.
+Send center-wide announcements and view general center performance and attendance statistics.
+Teachers:
+Log daily student attendance and record weekly memorization and revision progress.
+Enter exam grades and track individual learning paths for every student.
+Students & Parents:
+View personalized memorization study plans and track attendance history.
+Review pending tasks, check upcoming goals, and receive important updates from the center.
+✨ Key Features
+Reliable Offline Workflows: Allows teachers and directors to log attendance, progress, and evaluations even when there is no internet connection; the data saves locally and uploads automatically later.
+Dynamic Progress Tracking: Tailors and updates memorization and revision goals to match the unique pacing of each student.
+Automated PDF Reports: Generates clean, ready-to-print student report cards, progress logs, and certificates with a single click.
+Targeted Announcements: Filters and sends important center notifications or absence alerts directly to specific groups (parents, students, or teachers).
+Easy Data Import/Export: Allows administrative staff to upload entire lists of new students from Excel files or export monthly attendance and performance sheets instantly.
+Tech Stack: React (Next.js), TypeScript, Tailwind CSS, Dexie.js, Django REST Framework, PostgreSQL, Docker, Render, Vercel.
 
 ---
 
- Noor Al-Huda (نور الهدى) 
-
-  An offline-first progressive web app (PWA) designed for a Quran-memorization
-  center in Gaza serving 300+ students, replacing manual paper tracking with a
-  resilient digital workflow.
-
-  • Target Users:
-      • Center Directors (Admins): Manage student admissions, assign teacher
-      rings, send center-wide announcements, and view center analytics.
-      • Teachers: Log daily attendance, record weekly memorization grids, log
-      exam evaluations, and track individual revision queues.
-      • Students & Parents: View personalized study plans, check attendance
-      history, review pending tasks, and receive real-time notifications.
-  • Offline-First Sync: Built a local-first system using Dexie.js and Django
-  that queues attendance and evaluation logs offline in outbox.ts during
-  internet outages and syncs background data automatically when connection
-  restores.
-  • Dynamic Scheduling: Developed an adaptive spaced-repetition algorithm in
-  review_services.py that automatically recalibrates individual student revision
-  planners based on daily performance metrics.
-  • BiDi Document Engine: Engineered an automated PDF report card generator in
-  report_services.py using ReportLab, Arabic Reshaper, and Python-BiDi to handle
-  strict right-to-left formatting dynamically.
-  • Role-Based Security: Restricts data views and actions across all
-  environments by enforcing row-level permissions within database queries
-  mapped to custom roles (models.py).
-  • Targeted Announcements: Implemented a targeted messaging system that fans
-  out center announcements and absence notifications to filtered parent,
-  student, or teacher cohorts.
-  • Bulk Data Import/Export: Configured Excel bulk upload and download engines,
-  allowing directors to batch-import rosters and export monthly attendance
-  spreadsheets.
-  • Tech Stack: React (Next.js), TypeScript, Tailwind CSS, Dexie.js, Django
-  REST Framework, PostgreSQL, Docker, Render, Vercel.
+clientMORE
+An omnichannel, bilingual (Arabic/English) AI customer-support SaaS platform designed to automate business communication. The platform replaces traditional, manual support ticketing with an intelligent, document-driven assistant that dynamically escalates complex inquiries to live human agents.
+Omnichannel Chat Engine: Features a unified messaging router that seamlessly handles multi-channel communication. It connects real-time WebSockets for web-based widgets alongside webhook integrations for Telegram and WhatsApp, orchestrating parallel, channel-scoped user sessions smoothly.
+Hybrid RAG & Multi-Provider LLM Chain: Leverages a Retrieval-Augmented Generation (RAG) pipeline integrated with a flexible multi-provider LLM chain (Gemini, DeepSeek, and OpenAI). This ensures highly accurate, context-aware responses anchored directly to uploaded company knowledge bases and documentation.
+Conversational Intent Router: Built with a bilingual state-machine router that instantly classifies user intents (such as complaints, support requests, or purchases). It automatically triggers transactional workflows—like product selection and address collection—or initiates a seamless handoff to a human representative when needed.
+Tech Stack: React (Next.js), TypeScript, Tailwind CSS, FastAPI, SQLite, ChromaDB, WebSockets, Telegram API, Twilio, Docker.
 
 
 ---
