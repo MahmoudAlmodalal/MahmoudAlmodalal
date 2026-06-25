@@ -16,5 +16,3 @@
 ## 🧠 About Me
 
 I'm a **Computer Engineer** (B.Sc., Islamic University of Gaza — GPA: 91%) with deep expertise in backend architecture, scalable SaaS systems, and AI/ML engineering. I care about writing clean, maintainable code grounded in **Clean Architecture** and the **HackSoft Django Styleguide**.
-
-## 🛠️ Tech Stack
